@@ -5,15 +5,15 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'FitPro - Seu Personal Trainer Digital',
-  description: 'App completo de dieta e treino com design premium e UX impecável',
+  title: 'FitCoach Pro - Seu Personal Trainer e Nutricionista Digital',
+  description: 'App completo de treino e nutrição com acompanhamento personalizado',
   manifest: '/manifest.json',
   themeColor: '#F97316',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'FitPro'
+    title: 'FitCoach Pro'
   },
   icons: {
     icon: '/icon.svg',
@@ -31,7 +31,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="FitPro" />
+        <meta name="apple-mobile-web-app-title" content="FitCoach Pro" />
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>
       <body className="font-inter bg-[#0B0F14] text-[#E6EBF2] overflow-x-hidden">
